@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 3000; // You can choose any port you prefer
+const port = 3000; //
 
 app.get('/', (req, res) => {
-    // Use the res.sendFile() method to send the HTML file
+
     res.sendFile(__dirname + '/index.html');
 });
 
